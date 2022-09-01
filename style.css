@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'one piece';
+  src: url(one\ piece\ font.ttf);
+}
+
+h1 {
+    font-family: 'one piece';
+}
+h3 {
+  text-align: center;
+  font-family: 'one piece';
+  font-size: 40px;
+  color: #dfdddd;
+  background-color: var(--deep-grey);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+:root {
+  --white: #FFF;
+      --whitesmoke: #F9F9F9;
+  --light-grey: #ECECEC;
+      --grey: #C4C4C4;
+  --medium-grey: #d3cfcf;
+      --deep-grey: #343434;
+  --black: #000000;
+      --blue: #1B77F3;
+  --red: #CF3C3F;
+}
+
+*body {
+        background-color: #1b1b1b;
+        width: 100%;
+        height: 100%;
+}
+
+/* Cabeçalho */
+header {
+  background-color: var(--deep-grey);
+        
+  text-align: center;
+  padding: 15px;
+  color: var(--light-grey);
+}
+
+/* Grid de produtos */
+.container {
+  background-color: var(--medium-grey);
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 31%;
+  margin: 1% 1%;
+  display: inline-block;
+  padding: 15px;
+}
+
+.product-image {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+#img-1 {
+  background-image: url('img/goku.png');
+  border: 0.5px solid var(--deep-grey);
+  border-radius: 5px;
+}
+
+#img-2 {
+  background-image: url('img/587230-Naruto-Uzumaki-removebg-preview.png');
+  border: 0.5px solid var(--deep-grey);
+  border-radius: 5px;
+}
+
+#img-3 {
+  background-image: url('img/luffy.png');
+  border: 0.5px solid var(--deep-grey);
+  border-radius: 5px;
+}
+
+#img-4 {
+  background-image: url('img/saitama.png');
+  border: 0.5px solid var(--deep-grey);
+  border-radius: 5px;
+}
+
+#img-5 {
+  background-image: url('img/meliodas.png');
+  border: 0.5px solid var(--deep-grey);
+  border-radius: 5px;
+}
+
+#img-6 {
+  background-image: url('img/tenchy.png');
+  border: 0.5px solid var(--deep-grey);
+  border-radius: 5px;
+}
+
+
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+  color: rgb(114, 20, 20);
+}
+.bold2 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.bold3 {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgb(151, 49, 49);
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #e48b05;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1b1b1b;
+  text-align: center;
+  padding: 80px;
+  color: #fff;
+}
